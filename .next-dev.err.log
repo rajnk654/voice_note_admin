@@ -1,0 +1,139 @@
+⨯ TypeError: Cannot destructure property 'loadEnvConfig' of '_next_env__WEBPACK_IMPORTED_MODULE_0___default(...)' as it is undefined.
+    at eval (lib\env.ts:4:9)
+    at <unknown> (rsc)/./lib/env.ts (D:\voice_note_admin\.next\dev\server\app\page.js:77:1)
+    at eval (webpack-internal:///(rsc)/./lib/db.ts:8:66)
+    at <unknown> (rsc)/./lib/db.ts (D:\voice_note_admin\.next\dev\server\app\page.js:66:1)
+    at eval (webpack-internal:///(rsc)/./lib/auth.ts:9:65)
+    at <unknown> (rsc)/./lib/auth.ts (D:\voice_note_admin\.next\dev\server\app\page.js:55:1)
+    at eval (webpack-internal:///(rsc)/./lib/session.ts:8:67)
+    at <unknown> (rsc)/./lib/session.ts (D:\voice_note_admin\.next\dev\server\app\page.js:99:1)
+    at eval (webpack-internal:///(rsc)/./app/page.tsx:6:70)
+    at <unknown> (rsc)/./app/page.tsx (D:\voice_note_admin\.next\dev\server\app\page.js:44:1)
+  2 | import { z } from "zod";
+  3 |
+> 4 | const { loadEnvConfig } = nextEnv;
+    |         ^
+  5 |
+  6 | loadEnvConfig(process.cwd());
+  7 |
+⨯ TypeError: Cannot destructure property 'loadEnvConfig' of '_next_env__WEBPACK_IMPORTED_MODULE_0___default(...)' as it is undefined.
+    at eval (lib\env.ts:4:9)
+    at <unknown> (rsc)/./lib/env.ts (D:\voice_note_admin\.next\dev\server\app\page.js:77:1)
+    at eval (webpack-internal:///(rsc)/./lib/db.ts:8:66)
+    at <unknown> (rsc)/./lib/db.ts (D:\voice_note_admin\.next\dev\server\app\page.js:66:1)
+    at eval (webpack-internal:///(rsc)/./lib/auth.ts:9:65)
+    at <unknown> (rsc)/./lib/auth.ts (D:\voice_note_admin\.next\dev\server\app\page.js:55:1)
+    at eval (webpack-internal:///(rsc)/./lib/session.ts:8:67)
+    at <unknown> (rsc)/./lib/session.ts (D:\voice_note_admin\.next\dev\server\app\page.js:99:1)
+    at eval (webpack-internal:///(rsc)/./app/page.tsx:6:70)
+    at <unknown> (rsc)/./app/page.tsx (D:\voice_note_admin\.next\dev\server\app\page.js:44:1)
+  2 | import { z } from "zod";
+  3 |
+> 4 | const { loadEnvConfig } = nextEnv;
+    |         ^
+  5 |
+  6 | loadEnvConfig(process.cwd());
+  7 | {
+  page: '/'
+}
+⨯ TypeError: Cannot destructure property 'loadEnvConfig' of '_next_env__WEBPACK_IMPORTED_MODULE_0___default(...)' as it is undefined.
+    at eval (lib\env.ts:4:9)
+    at <unknown> (rsc)/./lib/env.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:55:1)
+    at eval (webpack-internal:///(rsc)/./lib/db.ts:8:66)
+    at <unknown> (rsc)/./lib/db.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:44:1)
+    at eval (webpack-internal:///(rsc)/./lib/auth.ts:9:65)
+    at <unknown> (rsc)/./lib/auth.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:33:1)
+    at eval (webpack-internal:///(rsc)/./app/api/auth/[...all]/route.ts:7:67)
+    at <unknown> (rsc)/./app/api/auth/[...all]/route.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:22:1)
+    at __webpack_exec__ (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:327:39)
+    at <unknown> (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:328:433)
+    at <unknown> (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:328:47)
+    at Object.<anonymous> (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:331:3)
+  2 | import { z } from "zod";
+  3 |
+> 4 | const { loadEnvConfig } = nextEnv;
+    |         ^
+  5 |
+  6 | loadEnvConfig(process.cwd());
+  7 | {
+  page: '/api/auth/session'
+}
+⨯ TypeError: Cannot destructure property 'loadEnvConfig' of '_next_env__WEBPACK_IMPORTED_MODULE_0___default(...)' as it is undefined.
+    at eval (lib\env.ts:4:9)
+    at <unknown> (rsc)/./lib/env.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:55:1)
+    at eval (webpack-internal:///(rsc)/./lib/db.ts:8:66)
+    at <unknown> (rsc)/./lib/db.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:44:1)
+    at eval (webpack-internal:///(rsc)/./lib/auth.ts:9:65)
+    at <unknown> (rsc)/./lib/auth.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:33:1)
+    at eval (webpack-internal:///(rsc)/./lib/session.ts:8:67)
+    at <unknown> (rsc)/./lib/session.ts (D:\voice_note_admin\.next\dev\server\app\login\page.js:187:1)
+    at eval (webpack-internal:///(rsc)/./app/login/page.tsx:9:70)
+    at <unknown> (rsc)/./app/login/page.tsx (D:\voice_note_admin\.next\dev\server\app\login\page.js:121:1)
+  2 | import { z } from "zod";
+  3 |
+> 4 | const { loadEnvConfig } = nextEnv;
+    |         ^
+  5 |
+  6 | loadEnvConfig(process.cwd());
+  7 |
+⨯ TypeError: Cannot destructure property 'loadEnvConfig' of '_next_env__WEBPACK_IMPORTED_MODULE_0___default(...)' as it is undefined.
+    at eval (lib\env.ts:4:9)
+    at <unknown> (rsc)/./lib/env.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:55:1)
+    at eval (webpack-internal:///(rsc)/./lib/db.ts:8:66)
+    at <unknown> (rsc)/./lib/db.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:44:1)
+    at eval (webpack-internal:///(rsc)/./lib/auth.ts:9:65)
+    at <unknown> (rsc)/./lib/auth.ts (D:\voice_note_admin\.next\dev\server\app\api\auth\[...all]\route.js:33:1)
+    at eval (webpack-internal:///(rsc)/./lib/session.ts:8:67)
+    at <unknown> (rsc)/./lib/session.ts (D:\voice_note_admin\.next\dev\server\app\login\page.js:187:1)
+    at eval (webpack-internal:///(rsc)/./app/login/page.tsx:9:70)
+    at <unknown> (rsc)/./app/login/page.tsx (D:\voice_note_admin\.next\dev\server\app\login\page.js:121:1)
+  2 | import { z } from "zod";
+  3 |
+> 4 | const { loadEnvConfig } = nextEnv;
+    |         ^
+  5 |
+  6 | loadEnvConfig(process.cwd());
+  7 | {
+  page: '/login'
+}
+⨯ TypeError: Cannot destructure property 'loadEnvConfig' of '_next_env__WEBPACK_IMPORTED_MODULE_0___default(...)' as it is undefined.
+    at eval (lib\env.ts:4:9)
+    at <unknown> (rsc)/./lib/env.ts (D:\voice_note_admin\.next\dev\server\app\page.js:77:1)
+    at eval (webpack-internal:///(rsc)/./lib/db.ts:8:66)
+    at <unknown> (rsc)/./lib/db.ts (D:\voice_note_admin\.next\dev\server\app\page.js:66:1)
+    at eval (webpack-internal:///(rsc)/./lib/auth.ts:9:65)
+    at <unknown> (rsc)/./lib/auth.ts (D:\voice_note_admin\.next\dev\server\app\page.js:55:1)
+    at eval (webpack-internal:///(rsc)/./lib/session.ts:8:67)
+    at <unknown> (rsc)/./lib/session.ts (D:\voice_note_admin\.next\dev\server\app\page.js:99:1)
+    at eval (webpack-internal:///(rsc)/./app/page.tsx:6:70)
+    at <unknown> (rsc)/./app/page.tsx (D:\voice_note_admin\.next\dev\server\app\page.js:44:1)
+  2 | import { z } from "zod";
+  3 |
+> 4 | const { loadEnvConfig } = nextEnv;
+    |         ^
+  5 |
+  6 | loadEnvConfig(process.cwd());
+  7 |
+⨯ TypeError: Cannot destructure property 'loadEnvConfig' of '_next_env__WEBPACK_IMPORTED_MODULE_0___default(...)' as it is undefined.
+    at eval (lib\env.ts:4:9)
+    at <unknown> (rsc)/./lib/env.ts (D:\voice_note_admin\.next\dev\server\app\page.js:77:1)
+    at eval (webpack-internal:///(rsc)/./lib/db.ts:8:66)
+    at <unknown> (rsc)/./lib/db.ts (D:\voice_note_admin\.next\dev\server\app\page.js:66:1)
+    at eval (webpack-internal:///(rsc)/./lib/auth.ts:9:65)
+    at <unknown> (rsc)/./lib/auth.ts (D:\voice_note_admin\.next\dev\server\app\page.js:55:1)
+    at eval (webpack-internal:///(rsc)/./lib/session.ts:8:67)
+    at <unknown> (rsc)/./lib/session.ts (D:\voice_note_admin\.next\dev\server\app\page.js:99:1)
+    at eval (webpack-internal:///(rsc)/./app/page.tsx:6:70)
+    at <unknown> (rsc)/./app/page.tsx (D:\voice_note_admin\.next\dev\server\app\page.js:44:1)
+  2 | import { z } from "zod";
+  3 |
+> 4 | const { loadEnvConfig } = nextEnv;
+    |         ^
+  5 |
+  6 | loadEnvConfig(process.cwd());
+  7 | {
+  page: '/'
+}
+2026-04-24T07:15:22.708Z WARN [Better Auth]: [better-auth] Warning: your BETTER_AUTH_SECRET should be at least 32 characters long for adequate security. Generate one with `npx auth secret` or `openssl rand -base64 32`.
+2026-04-24T07:15:22.710Z WARN [Better Auth]: [better-auth] Warning: your BETTER_AUTH_SECRET appears low-entropy. Use a randomly generated secret for production.
+^C

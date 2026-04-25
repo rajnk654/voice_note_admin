@@ -1,0 +1,17 @@
+
+> voice_note_admin@1.0.0 dev
+> next dev --webpack
+
+▲ Next.js 16.2.4 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://10.218.243.96:3000
+- Environments: .env
+✓ Ready in 1151ms
+
+○ Compiling / ...
+ GET / 500 in 16.0s (next.js: 14.3s, application-code: 1661ms)
+○ Compiling /_error ...
+ GET / 500 in 977ms (next.js: 962ms, application-code: 15ms)
+ GET /login 200 in 1272ms (next.js: 200ms, application-code: 1072ms)
+ GET / 307 in 148ms (next.js: 22ms, application-code: 126ms)
+ GET /login 200 in 113ms (next.js: 4ms, application-code: 110ms)

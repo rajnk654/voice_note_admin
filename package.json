@@ -1,0 +1,41 @@
+{
+  "name": "voice_note_admin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Admin-only voice note transcription app",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:seed": "tsx scripts/seed-admin.ts"
+  },
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@next/swc-wasm-nodejs": "^16.2.4",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@better-auth/drizzle-adapter": "^1.6.8",
+    "@google/genai": "^1.50.1",
+    "better-auth": "^1.6.8",
+    "drizzle-orm": "^0.45.2",
+    "isarray": "^2.0.5",
+    "jose": "^6.2.2",
+    "next": "^16.2.4",
+    "postgres": "^3.4.9",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "zod": "^4.3.6"
+  }
+}

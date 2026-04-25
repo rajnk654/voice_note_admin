@@ -1,0 +1,36 @@
+import * as nextEnv from "@next/env";
+import { z } from "zod";
+
+const nextEnvCompat = nextEnv as typeof nextEnv & {
+  default?: { loadEnvConfig?: (dir: string) => void };
+};
+
+const loadEnvConfig =
+  nextEnvCompat.loadEnvConfig ?? nextEnvCompat.default?.loadEnvConfig;
+
+loadEnvConfig?.(process.cwd());
+
+const envSchema = z.object({
+  DATABASE_URL: z.url(),
+  BETTER_AUTH_SECRET: z.string().min(16),
+  BETTER_AUTH_URL: z.url(),
+  GEMINI_API_KEY: z.string().min(1),
+  ADMIN_USERNAME: z.string().min(3).default("admin"),
+  ADMIN_PASSWORD: z.string().min(8).default("Admin123!"),
+  ADMIN_EMAIL: z.email().default("admin@example.com"),
+  ADMIN_NAME: z.string().min(1).default("Voice Note Admin"),
+});
+
+export const env = envSchema.parse({
+  DATABASE_URL:
+    process.env.DATABASE_URL ??
+    "postgresql://postgres:postgres@localhost:5432/voice_note_admin",
+  BETTER_AUTH_SECRET:
+    process.env.BETTER_AUTH_SECRET ?? "development-only-secret-value",
+  BETTER_AUTH_URL: process.env.BETTER_AUTH_URL ?? "http://localhost:3000",
+  GEMINI_API_KEY: process.env.GEMINI_API_KEY ?? "missing-gemini-api-key",
+  ADMIN_USERNAME: process.env.ADMIN_USERNAME,
+  ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
+  ADMIN_EMAIL: process.env.ADMIN_EMAIL,
+  ADMIN_NAME: process.env.ADMIN_NAME,
+});
